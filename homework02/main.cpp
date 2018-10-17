@@ -1,8 +1,8 @@
-#include <QApplication>
 #include <QDebug>
-#include <QVector>
 #include <QTextStream>
 #include <QFile>
+#include<QList>
+#include <QCoreApplication>
 #define N 4
 namespace SK {
 enum SortKind{
@@ -126,7 +126,7 @@ int main()
     }
 
     ScoreSorter s(datafile);
-    s.readFile();
-    s.doSort();
+    s.readfile();
+    s.dosort();
     return 0;
 }

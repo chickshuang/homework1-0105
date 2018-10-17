@@ -3,7 +3,7 @@
 #include <QFile>
 #include<QList>
 #include <QCoreApplication>
-#define N 4
+#define N 7
 namespace SK {
 enum SortKind{
     col01    =   0x00000001<<0,         //!< 第1列
@@ -119,7 +119,7 @@ void ScoreSorter::readfile()
 
 int main()
 {
-    QString datafile = "data.txt";
+    QString datafile = "C:/Users/PC/Desktop/untitled3/data.txt";
     QFile f("sorted_"+datafile);
     if (f.exists()){
         f.remove();

@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2018-10-24T18:02:29
+# Project created by QtCreator 2018-10-24T15:49:18
 #
 #-------------------------------------------------
 
@@ -26,17 +26,14 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    centerframe.cpp \
-    drawwidget.cpp
+    drawwidget.cpp \
+    centerframe.cpp
 
 HEADERS += \
         mainwindow.h \
-    centerframe.h \
     common.h \
-    drawwidget.h
+    drawwidget.h \
+    centerframe.h
 
 FORMS += \
         mainwindow.ui
-
-RESOURCES += \
-    demo.qrc

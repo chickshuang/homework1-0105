@@ -8,7 +8,6 @@
 #include <QToolButton>
 #include <QDebug>
 #include <QLayout>
-#include<QPainter>
 
 
 MainWindow::MainWindow(QWidget *parent)
